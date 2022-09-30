@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { RemotestuffRoutingModule } from './remotestuff-routing.module';
 import { RemotepageComponent } from './remotepage/remotepage.component';
+import { MainModule } from 'host-app-common';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { RemotepageComponent } from './remotepage/remotepage.component';
   ],
   imports: [
     CommonModule,
-    RemotestuffRoutingModule
+    RemotestuffRoutingModule,
+    MainModule
   ]
 })
 export class RemotestuffModule { }
